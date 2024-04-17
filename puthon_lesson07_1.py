@@ -4,8 +4,8 @@
 
 # Задача 26
 
-# a = 3
-# b = 5
+a = 3
+b = 5
 # print(f(a, b))
 
 
@@ -14,3 +14,4 @@ def f(a, b):
         return a
     if b != 1:
         return a * f(a, b - 1)
+print(f(a, b))
