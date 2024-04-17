@@ -4,8 +4,8 @@
 
 # Задача 28
 
-# a = 3
-# b = 5
+a = 3
+b = 5
 # print(sum(a, b))
 
 
@@ -14,3 +14,6 @@ def sum(a, b):
         return b
     else:
         return sum(a - 1, b + 1)
+
+
+print(sum(a, b))
